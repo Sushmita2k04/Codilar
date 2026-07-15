@@ -82,6 +82,12 @@
 
 }
 
+.nav-right {
+    margin-left: 22px;
+    margin-right: 50px;
+
+}
+
 .search-box {
     display: flex;
     align-items: center;
@@ -108,13 +114,6 @@
     margin-left: 5px;
     opacity: .6;
 
-
-}
-
-
-.nav-right {
-    margin-left: 0;
-    margin-right: 50px;
 
 }
 
@@ -194,9 +193,6 @@
 }
 
 
-/* ===========================
-   Small Mobile (576px)
-=========================== */
 
 @media (max-width:576px) {
 
@@ -247,10 +243,6 @@
 
 }
 
-
-/* ===========================
-   Very Small Devices (400px)
-=========================== */
 
 @media (max-width:400px) {
 
