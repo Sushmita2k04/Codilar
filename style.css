@@ -13,10 +13,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin: 0 auto;
-    height: 75px;
+    margin: 0 50px;
+    height: 80px;
     position: fixed;
-    box-shadow: 0 2px 8px rgb(209, 208, 208);
+    box-shadow: 0 2px 8px rgb(240, 239, 239);
     background-color: #fff;
 }
 
@@ -32,10 +32,11 @@ nav {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 15px;
+    gap: 10px;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 550;
     margin: 0 15px;
+
 }
 
 .nav-links li a {
@@ -61,14 +62,14 @@ nav {
 
 .logo img {
     width: 60px;
-    margin: 20px 40px;
+
 }
 
 .search-box {
     display: flex;
     align-items: center;
-    width: 400px;
-    height: 30px;
+    width: 500px;
+    height: 40px;
     background: #f5f5f6;
     border-radius: 4px;
     padding: 0 15px;
@@ -92,19 +93,21 @@ nav {
 
 
 .nav-right {
-    margin: 0 40px;
+    margin: 0 50px;
+
 }
 
 .nav-right div {
-    margin: 0 1px;
+    margin: 0 5px;
     text-align: center;
-    font-size: ;
-    padding: 8px;
+    padding: 12px;
+    font-size: smaller;
+
 }
 
 .nav-item img {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
 }
 
 .nav-item p {
