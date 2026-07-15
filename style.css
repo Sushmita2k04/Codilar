@@ -17,13 +17,14 @@ nav {
     height: 75px;
     position: fixed;
     box-shadow: 0 2px 8px rgb(209, 208, 208);
+    background-color: #fff;
 }
 
 .nav-left,
 .nav-right {
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
 
 }
 
@@ -42,6 +43,7 @@ nav {
     text-decoration: none;
     color: #282c3f;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* height: ; */
 }
 
 #parent {
@@ -96,7 +98,7 @@ nav {
 .nav-right div {
     margin: 0 1px;
     text-align: center;
-
+    font-size: ;
     padding: 8px;
 }
 
@@ -115,7 +117,7 @@ nav {
 
 
 .mainPart img {
-
+    margin-top: 80px;
     width: 100%;
 
 }
