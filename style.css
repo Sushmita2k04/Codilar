@@ -17,10 +17,9 @@
     padding: 20px;
 } */
 
-nav {
+.nav {
     width: 100vw;
     padding: 0 40px;
-    margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,9 +27,6 @@ nav {
     position: fixed;
     box-shadow: 0 2px 12px rgba(233, 232, 232, 0.8);
     background-color: #fff;
-    top: 0;
-    z-index: 10;
-
 
 }
 
@@ -46,10 +42,10 @@ nav {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 2px;
-    font-size: 12px;
+    /* gap: 2px; */
+    font-size: 25px;
     font-weight: 550;
-    margin: 0 15px;
+    margin: 0 13px;
 
 }
 
@@ -59,8 +55,9 @@ nav {
     color: #282c3f;
     font-family: "Assistant", sans-serif;
     font-weight: 700;
-    letter-spacing: .6px;
+    letter-spacing: .8px;
     font-size: 14px;
+
 
 }
 
@@ -81,7 +78,7 @@ nav {
 
 .logo img {
     width: 60px;
-    margin: 0 15px;
+    margin: 0 25px;
 
 }
 
@@ -101,6 +98,7 @@ nav {
     outline: none;
     background: transparent;
     font-size: 14px;
+    margin-left: 0;
 }
 
 .search-box img {
@@ -115,7 +113,8 @@ nav {
 
 
 .nav-right {
-    margin: 0 50px;
+    margin-left: 0;
+    margin-right: 50px;
 
 }
 
@@ -130,7 +129,7 @@ nav {
 .nav-item img {
     /* gap: 0; */
     width: 14px;
-    height: 16px;
+    /* height: 16px; */
     padding: 0;
     font-weight: 800;
     margin: 0;
@@ -139,7 +138,7 @@ nav {
 .nav-item p {
 
     font-size: 10px;
-    font-weight: 600;
+    font-weight: 700;
     color: #282c3f;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -159,9 +158,117 @@ nav {
 
 }
 
-@media (max-width:950px) {
-    .nav {
-        position: relative;
-        overflow: hidden;
+@media (max-width:768px) {
+
+    nav {
+        height: 70px;
+        padding: 0 10px;
     }
+
+    .logo img {
+        width: 45px;
+    }
+
+
+    .search-box input {
+        font-size: 12px;
+    }
+
+    .nav-right {
+        margin: 0;
+    }
+
+    .nav-right div {
+        padding: 6px;
+    }
+
+    .nav-item img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .nav-item p {
+        font-size: 10px;
+    }
+
+}
+
+
+/* ===========================
+   Small Mobile (576px)
+=========================== */
+
+@media (max-width:576px) {
+
+    nav {
+        height: 65px;
+        padding: 0 8px;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    /* Hide search bar */
+
+    .search-box {
+        display: none;
+    }
+
+    .nav-right {
+        gap: 10px;
+    }
+
+    .nav-right div {
+        padding: 4px;
+    }
+
+    /* Hide text below icons */
+
+    .nav-item p {
+        display: none;
+    }
+
+    .nav-item img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .discount img {
+        margin-top: 90px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .hero img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+}
+
+
+/* ===========================
+   Very Small Devices (400px)
+=========================== */
+
+@media (max-width:400px) {
+
+    nav {
+        padding: 0 5px;
+    }
+
+    .logo img {
+        width: 35px;
+    }
+
+    .nav-item img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .nav-right {
+        gap: 5px;
+    }
+
 }
